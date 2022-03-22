@@ -2,10 +2,7 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
-.nav-link{
-    color: #fff!important;
 
-}
 
 
 .port1{
@@ -14,18 +11,19 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-  
 
-    background: url("images/background.jpg");
+    background: url('images/background.jpg');
     background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    padding-top: 0.5em;
 }
 .hero_desc {
     font-size: 2rem;
+    padding: 1em;
     padding-bottom: 1em;
 }
 .hero-text {
@@ -38,7 +36,10 @@
 
 }
 
+.nav-link{
+    color: #fff!important;
 
+}
 .button1{
     background-color: white!important;
     color:black!important;
