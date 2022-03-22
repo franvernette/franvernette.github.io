@@ -16,7 +16,7 @@
     height:100vh;
   
 
-    background: url("images/cats1.png");
+    background: url("images/background.jpg");
     background-size:cover;
     position:relative;
 }
