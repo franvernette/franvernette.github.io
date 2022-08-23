@@ -115,6 +115,10 @@ button:hover{
     color: black;
 }
   
+.icon1:hover{
+  color:grey;
+}
+
 /* img */
 .img1{
     padding-bottom: 2em;
