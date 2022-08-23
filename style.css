@@ -1,22 +1,22 @@
-/* display background color black on navbar scroll */
+/* navbar scroll color*/
 .navbarScroll.navbarDark {
     background-color: black;
 }
 
-
-
-.port1{
-    padding-top: 2em;
-}
-/* hero background image */
+/* hero*/
 .bgimage {
     height:100vh;
-
     background: url('images/background.jpg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+
+/* text css */
+a {
+    font-size:20px;
+    text-decoration: none;
+}
+
 .hero_title {
     font-size: 4.5rem;
     padding-top: 0.5em;
@@ -33,22 +33,41 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
 }
 
 .nav-link{
     color: #fff!important;
-
+    padding-right:0.5em!important;
 }
 
+/* paddings */
+.title1{
+    padding-top: 2em;
+}
 .space1 {
-  padding-bottom: 1.2em!important;
+    padding-bottom: 1.2em!important;
 }
+.space2{
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+
+}
+#contact {
+    padding-top: 2.5em;
+    padding-bottom: 4rem;
+}
+
+/* buttons */
 .button1{
     background-color: white!important;
     color:black!important;
  
 }
+button:hover{
+    color: white!important;
+    background-color: black!important;
+}
+
 .button2{
     background-color: black!important;
     color:white!important;
@@ -60,6 +79,8 @@
     background-color: white!important;
     outline: solid;
 }
+
+/* projects showcase */
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -84,95 +105,27 @@
     max-width: 100%;
   }
   
-  .bg-pinkish {
-    background-color: #ee6969;
-    color: #fff;
-  }
   .project-tile p {
     color: #000;
     font-size: 20px;
-  
-    /* padding-bottom: 1em; */
   }
   
-
-button:hover{
-    color: white!important;
-    background-color: black!important;
+/* icon */
+.icon1{
+    color: black;
 }
-
-
-.exampleImg{
   
-  width: 100%;
-  max-width: 45em;
-}
-
-.image2{
- width: 100%;
-  height: 100%;
-  max-width: 70em!important;
-
-}
-
-@media screen and (min-width: 1400px) {
-  .exampleImg {
- max-width: 900px;
-  }
-}
-
-.bott{
-  background-color:white!important;
-}
-.hello1{
-  
+/* img */
+.img1{
     padding-bottom: 2em;
 }
 
-.hello2{
-    padding-bottom: 1.5em;
-
-}
-/* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
-#contact {
-    padding-bottom: 4rem;
-}
-/* about section image css */
-.imageAboutPage {
-    width: 100%;
+.icon1{
+    padding:1em;
+    padding-bottom:0.1em;
 }
 
-.heart{
-  background-color: red;
-  display: inline-block;
-  height: 25px;
-  margin: 0 10px;
-  position: relative;
-  top: 0;
-  transform: rotate(-45deg);
-  width: 25px;
+.icon-bg{
+    font-size: 35px;
 }
 
-.heart:before,
-.heart:after {
-  content: "";
-  background-color: red;
-  border-radius: 50%;
-  height: 25px;
-  position: absolute;
-  width: 25px;
-}
-
-.heart:before {
-  top: -10px;
-  left: 0;
-}
-
-.heart:after {
-  left: 10px;
-  top: 0;
-}
